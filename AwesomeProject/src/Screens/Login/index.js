@@ -117,10 +117,9 @@ export default class Login extends Component {
                 });
 
 
-            // this.props.navigation.navigate('ShareKIT');
         }
         else if (item.id == 6) {
-            this.props.navigation.navigate('ImagePicker');
+            this.props.navigation.navigate('ImagePickerExample');
         }
         else if (item.id == 7) {
             this.props.navigation.navigate('FlatListAPIExample');

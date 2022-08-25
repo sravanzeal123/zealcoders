@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Login from './src/Screens/Login';
 import SignUp from './src/Screens/SignUp';
 import NewsList from './src/Screens/NewsList';
+import ImagePickerExample from './src/Screens/ImagePickerExample';
 
 const App = () => {
   const Stack = createStackNavigator()
@@ -13,6 +14,8 @@ const App = () => {
         <Stack.Screen name='Login' component={Login} />
         <Stack.Screen name='SignUp' component={SignUp}/>
         <Stack.Screen name='NewsList' component={NewsList}/>
+        <Stack.Screen name='ImagePickerExample' component={ImagePickerExample}/>
+
       </Stack.Navigator>
     </NavigationContainer>
   );
