@@ -131,7 +131,7 @@ export default class Login extends Component {
             this.props.navigation.navigate('DocumentPicker');
         }
         else if (item.id == 10) {
-            this.props.navigation.navigate('Maps');
+            this.props.navigation.navigate('MapsExample');
         }
         else if (item.id == 11) {
             this.props.navigation.navigate('SocialLogins');

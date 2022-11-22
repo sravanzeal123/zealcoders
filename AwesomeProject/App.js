@@ -5,6 +5,7 @@ import Login from './src/Screens/Login';
 import SignUp from './src/Screens/SignUp';
 import NewsList from './src/Screens/NewsList';
 import ImagePickerExample from './src/Screens/ImagePickerExample';
+import MapsExample from './src/Screens/MapsExample';
 
 const App = () => {
   const Stack = createStackNavigator()
@@ -15,6 +16,7 @@ const App = () => {
         <Stack.Screen name='SignUp' component={SignUp}/>
         <Stack.Screen name='NewsList' component={NewsList}/>
         <Stack.Screen name='ImagePickerExample' component={ImagePickerExample}/>
+        <Stack.Screen name='MapsExample' component={MapsExample}/>
 
       </Stack.Navigator>
     </NavigationContainer>
